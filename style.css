@@ -1,0 +1,446 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navigation Bar Styling */
+#navigation {
+    background-color: black;
+    color: #fff;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-brand h1 {
+    color: white;
+    /* Change the text color as needed */
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler i {
+    color: #fff;
+    /* Set your desired icon color */
+    font-size: 1.5rem;
+    /* Set your desired icon size */
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+    /* Adjust the spacing between menu items */
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    /* Change the text color as needed */
+}
+
+.navbar-nav .nav-link:hover {
+    color: red;
+    /* Change the hover color as needed */
+}
+
+
+#allsectioncontainer{
+    padding-left: 0;
+    padding-right: 0;
+    background-color: black;
+}
+
+/*home*/
+#home {
+    color: white;
+    /* Set the text color */
+    text-align: center;
+    /* Center-align text within the container */
+    padding: 80px 0;
+    /* Add padding for better spacing */
+}
+
+#home .container-fluid {
+    background-color: #333;
+    /* Set a background color for the section */
+    background-size: cover;
+    /* Make sure the background image covers the entire container */
+    background-position: center;
+    /* Center the background image */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home p {
+    font-size: 18px;
+    /* Set font size for the paragraph */
+    color: rgb(255, 16, 147);
+    /* Set paragraph text color */
+}
+
+#home .container-fluid h2 {
+    font-size: 36px;
+    /* Set font size for the heading */
+    color: white;
+    /* Set heading text color */
+}
+
+#home .container-fluid span {
+    color: #f5e05c;
+    /* Set color for the span within the heading */
+}
+
+#home .container-fluid a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    /* Set background color for the button */
+    color: #fff;
+    /* Set button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    /* Add border-radius for rounded corners */
+}
+
+#home .container-fluid a:hover {
+    background-color: #0056b3;
+    /* Change background color on hover */
+}
+
+
+
+/* about*/
+#about {
+    background-color: #fff;
+    /* Set a background color for the section */
+    color: black;
+    /* Set the text color */
+    padding: 80px 0;
+    /* Add padding for better spacing */
+}
+
+#about .img-fluid {
+    max-width: 100%;
+    /* Make sure the image is responsive */
+    border-radius: 5px;
+    /* Add border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow to the image */
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 40px;
+    /* Set font size for the heading */
+    color: white;
+    /* Set heading text color */
+    margin-bottom: 20px;
+    /* Add margin to the bottom for spacing */
+}
+
+#about p {
+    text-align: center;
+    font-size: 16px;
+    /* Set font size for the paragraph */
+    color: white;
+    /* Set paragraph text color */
+    line-height: 1.5;
+    /* Set line height for better readability */
+}
+
+
+
+/*services*/
+#services {
+    text-align: center;
+    background-color: black;
+    /* Set a background color for the section */
+    color: white;
+    /* Set the text color */
+    padding: 80px 0;
+    /* Add padding for better spacing */
+}
+
+#services h2 {
+    font-size: 40px;
+    /* Set font size for the section heading */
+    color: white;
+    /* Set heading text color */
+    margin-bottom: 40px;
+    /* Add margin to the bottom for spacing */
+}
+
+#services .img-fluid {
+    max-width: 100%;
+    /* Make sure the image is responsive */
+    border-radius: 5px;
+    /* Add border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow to the image */
+}
+
+#services h3 {
+    font-size: 24px;
+    /* Set font size for the service heading */
+    color: white;
+    /* Set heading text color */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* Add margin to the top for spacing */
+}
+
+
+/*skills*/
+#skills {
+    text-align: center;
+    background-color: black;
+    /* Set a background color for the section */
+    color: white;
+    /* Set the text color */
+    padding: 80px 0;
+    /* Add padding for better spacing */
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 40px;
+    /* Set font size for the section heading */
+    color: white;
+    /* Set heading text color */
+    margin-bottom: 40px;
+    /* Add margin to the bottom for spacing */
+}
+
+#skills i {
+    display: block;
+    /* Ensure the icon takes up the entire width of the container */
+}
+
+#skills h3 {
+    font-size: 20px;
+    /* Set font size for the skill heading */
+    color: white;
+    /* Set heading text color */
+    margin-top: 20px;
+    /* Add margin to the top for spacing */
+}
+
+#skills .progress {
+    margin-top: 10px;
+    /* Add margin to the top for spacing between the icon and progress bar */
+}
+
+#skills .progress-bar {
+    border-radius: 5px;
+    /* Add border-radius for rounded corners */
+}
+
+/* Custom colors for progress bars */
+#skills .bg-warning {
+    background-color: #ff4f14;
+}
+
+#skills .bg-primary {
+    background-color: #2965f1;
+}
+
+#skills .bg-danger {
+    background-color: #f96c2f;
+}
+
+#skills .bg-success {
+    background-color: #0fff37;
+}
+
+#skills .bg-info {
+    background-color: #306998;
+}
+
+#skills .bg-secondary {
+    background-color: #333;
+}
+
+
+
+/*projects section*/
+#projects {
+    text-align: center;
+    background-color: black;
+    /* Set a background color for the section */
+    color: white;
+    /* Set the text color */
+    padding: 80px 0;
+    /* Add padding for better spacing */
+}
+
+#projects h2 {
+    font-size: 40px;
+    /* Set font size for the section heading */
+    color: white;
+    /* Set heading text color */
+    margin-bottom: 40px;
+    /* Add margin to the bottom for spacing */
+}
+
+
+#projects .img-fluid {
+    max-width: 100%;
+    /* Make sure the image is responsive */
+    border-radius: 5px;
+    /* Add border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow to the image */
+}
+
+#projects h3 {
+    font-size: 24px;
+    /* Set font size for the project heading */
+    color: white;
+    /* Set project heading text color */
+    margin-top: 20px;
+    /* Add margin to the top for spacing */
+}
+
+#projects p {
+    font-size: 16px;
+    /* Set font size for the paragraph */
+    color: white;
+    /* Set paragraph text color */
+    line-height: 1.5;
+    /* Set line height for better readability */
+}
+
+#projects a {
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+#projects button {
+    padding: 10px 20px;
+    /* Add padding to the button */
+    background-color: #007bff;
+    /* Set background color for the button */
+    color: #fff;
+    /* Set button text color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add border-radius for rounded corners */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    transition: background-color 0.3s;
+    /* Add smooth transition for background color change */
+}
+
+#projects button:hover {
+    background-color: #0056b3;
+    /* Change background color on hover */
+}
+
+
+/*contact section*/
+#contact {
+    background-color: black;
+    /* Set a background color for the section */
+    color: white;
+    /* Set the text color */
+    padding: 80px 0;
+    padding-bottom: 0;
+    /* Add padding for better spacing */
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 36px;
+    /* Set font size for the section heading */
+    color: white;
+    /* Set heading text color */
+    margin-bottom: 20px;
+    /* Add margin to the bottom for spacing */
+}
+
+#contact p {
+    text-align: center;
+    font-size: 18px;
+    /* Set font size for the paragraph */
+    color: #6df884;
+    /* Set paragraph text color */
+    margin-bottom: 40px;
+    /* Add margin to the bottom for spacing */
+}
+
+#contact .form-control {
+    width: 100%;
+    /* Set the width of the input fields to 100% */
+    padding: 10px;
+    /* Add padding to the input fields */
+    margin-bottom: 20px;
+    /* Add margin to the bottom for spacing */
+    border: 1px solid #ccc;
+    /* Add a border to the input fields */
+    border-radius: 5px;
+    /* Add border-radius for rounded corners */
+}
+
+#contact .btn-primary {
+    padding: 10px 20px;
+    /* Add padding to the button */
+    background-color: #007bff;
+    /* Set background color for the button */
+    color: #fff;
+    /* Set button text color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add border-radius for rounded corners */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    transition: background-color 0.3s;
+    /* Add smooth transition for background color change */
+}
+
+#contact .btn-primary:hover {
+    background-color: #0056b3;
+    /* Change background color on hover */
+}
+
+#contact ul {
+    list-style: none;
+    /* Remove default list styles */
+    padding: 0;
+    color: white;
+    /* Remove padding */
+}
+
+#contact li {
+    margin-bottom: 10px;
+    /* Add margin to the bottom for spacing between list items */
+}
+
+#contact .fa-2x {
+    margin-right: 10px;
+    /* Add margin to the right for spacing between icon and text */
+}
+
+#contact a {
+    color: white;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: aqua;
+}
